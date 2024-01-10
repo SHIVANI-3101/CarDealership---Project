@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*SCROLLBAR START*/
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555; 
+}
+
+/*SCROLLBAR END*/
+
+/*NAVIGATION BAR START */
+
+#logo{
+    font-size: 35px;
+}
+
+#logo a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    padding: 40px 30px 40px 30px;
+}
+
+#righthand{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navlink{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+/*NAVIGATION BAR END */
+
+
+
+
+
+
+
+/* FOOTER START */
+
+#bottom_foot
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #28282B;
+    color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* background: url("https://wallpapercave.com/wp/wp6403111.jpg"); */
+
+}
+
+#pagelinks{
+    display: flex;
+}
+
+#contactlinks{
+    display: flex;
+    padding: 30px 30px 10px 30px;
+}
+
+.social_icons{
+    font-size: 40px;
+    padding: 10px;
+}
+
+#indi_page{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#indi_page a{
+    color: white;
+}
+
+.categories_link{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.categories_link a{
+    color: white;
+}
+
+#pages{
+    padding: 20px;
+}
+
+#category_links{
+    padding:20px
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#newsletter{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* FOOTER END */

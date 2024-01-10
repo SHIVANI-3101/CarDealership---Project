@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/ThePandaStore/images/panda main icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="signup_styles.css">
+    <title>ThePandaShop Signup</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="/ThePandaStore/pages/landing page/index.html">CarBuy.com</a>
+            </div>
+            <div id="righthand">
+                <div class="navlink">
+                    <a href="/ThePandaStore/pages/landing page/index.html">Home</a>
+                </div>
+                <div class="navlink">
+                    <a href="/ThePandaStore/pages/about us/aboutus.html">About</a>
+                </div>
+                <div class="navlink">
+                    <a href="/ThePandaStore/pages/signup/signup.html">SignUp</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="form_container">
+            <div id="sign_form">
+                <div id="topper">
+                    <div id="for_head">
+                        Sign Up
+                    </div>
+                    <div id="result"></div>
+                </div>
+                <form action="POST">
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required  maxlength="10">
+                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+                    <input type="number" id="phonenum" name="phonenum" placeholder="Enter Phone Number" required maxlength="10">
+                    <input type="email" id="user_mail" name="user_mail" placeholder="Enter Email" required>
+                    <input type="password" id="user_pass" name="user_pass" placeholder="Enter Password" required oninput="dynamicCheck()">
+                    <div id="pass_inst">
+                        <div class="list">
+                            <ul>
+                                <li id="rule1">Minimum length 8 characters</li>
+                                <li id="rule2">Atleast one uppercase letter</li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li id="rule3">Atleast one digit</li>
+                                <li id="rule4">Atleast one special character</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="password" id="conf_pass" name="conf_pass" placeholder="Confirm Password" required>
+                </form>
+                <div id="buttn">
+                    <div>
+                        <button onclick="checkInput(event)" id="subform">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="more_info">
+            <div id="login">
+                Already have an account ? <a href="/ThePandaStore/pages/login/login.html"><u>Log In</u></a>
+            </div>
+        </div>
+    </section>
+    <script src="sign_work.js"></script>
+</body>
+</html>
