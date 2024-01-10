@@ -104,6 +104,10 @@ nav{
     color: white;
 }
 
+textarea {
+    resize: none;
+ }
+
 #form_container{
     display: flex;
     width: 100%;
@@ -121,6 +125,17 @@ nav{
 }
 
 input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 0.5px solid white;
+    background-color: #28282B;
+    color: white;
+}
+
+textarea{
     width: 100%;
     padding: 10px;
     border-radius: 10px;

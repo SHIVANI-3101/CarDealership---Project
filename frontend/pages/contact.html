@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/frontend/styling/signup_style.css">
+    <title>CarBuy.Com</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="/frontend/pages/index.html">CarBuy.com</a>
+            </div>
+            <div id="righthand">
+                <div class="navlink">
+                    <a href="/frontend/pages/index.html">Home</a>
+                </div>
+                <div class="navlink">
+                    <a href="/frontend/pages/contact.html">Contact Us</a>
+                </div>
+                <div class="navlink">
+                    <a href="/frontend/pages/index.html">Log Out</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="form_container">
+            <div id="sign_form">
+                <div id="topper">
+                    <div id="for_head">
+                        Contact Us
+                    </div>
+                    <div id="result"></div>
+                </div>
+                <form action="http://localhost:3000/sign_up" method="POST">
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required  maxlength="10">
+                    <input type="number" id="phonenum" name="phonenum" placeholder="Enter Phone Number" required maxlength="10">
+                    <input type="email" id="user_mail" name="user_mail" placeholder="Enter Email" required>
+                    <textarea name="response" id="response" cols="30" rows="10" placeholder="Connect with us!"></textarea>
+                </form>
+                <div id="buttn">
+                    <div>
+                        <button id="subform">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/frontend/scripting/signup.js"></script>
+</body>
+</html>
