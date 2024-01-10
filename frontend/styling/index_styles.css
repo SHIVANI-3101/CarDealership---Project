@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 a{
@@ -79,11 +82,144 @@ nav{
 
 /*NAVIGATION BAR END */
 
+/* TOP INTRODUCTION */
+
+#top_introduction{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_car_image img{
+    width: 700px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+#about_page{
+    padding: 40px;
+    font-size: 20px;
+    text-align: justify;
+    font-style: italic;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+/* TOP INTRODUCTION */
 
 
+/* TOP CARS */
 
+#top_car{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
 
+#top_car_head{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
 
+#underline{
+    height: 7px;
+    background-color: black;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#card_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.car_photo{
+    height: 300px;
+    width: 600px;
+    overflow:hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.car_cards{
+    padding: 40px;
+    margin:10px;
+    border: 5px solid #28282B;
+    border-radius: 30px;
+    box-shadow: 10px 10px#28282B;
+}
+
+#price{
+    font-size: 20px;
+}
+
+#top_buy{
+    width: 100px;
+}
+
+.carinformation{
+    font-size: 25px;
+    background-color: #28282B;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+/* TOP CARS */
+
+/* SERVICES OFFERED */
+
+#services_offerred{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#service_head{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#service_container{
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_cards{
+    width: 300px;
+    padding: 25px 15px 25px 15px;
+    margin: 10px 20px 10px 20px;
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #28282B;
+    border-radius: 40px;
+    transition: all 0.7s ease-in-out;
+}
+
+.service_cards:hover{
+    transform: scale(1.09);
+    background-color: #28282B;
+    color: white;
+    cursor: pointer;
+}
+
+/* SERVICES OFFERED */
 
 /* FOOTER START */
 

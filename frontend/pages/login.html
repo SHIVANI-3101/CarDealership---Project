@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/frontend/styling/login_style.css">
+    <title>CarBuy.Com</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="/frontend/pages/index.html">CarBuy.com</a>
+            </div>
+            <div id="righthand">
+                <div class="navlink">
+                    <a href="/frontend/pages/index.html">Home</a>
+                </div>
+                <div class="navlink">
+                    <a href="/frontend/pages/contact.html">Contact Us</a>
+                </div>
+                <div class="navlink">
+                    <a href="/frontend/pages/signup.html">SignUp</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="login_container">
+            <div id="login_form">
+                <div id="login_head">
+                    Login
+                </div>
+                <input type="email" name="user_mail" id="user_mail" placeholder="Enter Email" required>
+                <input type="password" name="user_pass" id="user_pass" placeholder="Enter Password" required>
+                <div id="sub_button">
+                    <div id="sub">
+                        <button type="submit" onclick="subLogin()">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="more_in">
+            <div id="content">
+                Don't have an account ? <a href="/frontend/pages/signup.html"><u>Sign Up</u></a>
+            </div>
+        </div>
+    </section>
+    <script src="login_work.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #28282B inset !important;
+    -webkit-text-fill-color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    background-color: #28282B;
+}
+
+/*SCROLLBAR START*/
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555; 
+}
+
+/*SCROLLBAR END*/
+
+/* Navigation Bar */
+
+#logo{
+    font-size: 35px;
+}
+
+#logo a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    padding: 40px 30px 40px 30px;
+}
+
+#righthand{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navlink{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+
+/* FORM START */
+
+#for_head{
+    font-size: 45px;
+    display: inline;
+    color: white;
+}
+
+#form_container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 0px 20px;
+    background-color: #28282B;
+}
+
+#sign_form{
+    border: 0.5px solid #28282b;
+    padding: 30px 30px 10px 30px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 0.5px solid white;
+    background-color: #28282B;
+    color: white;
+}
+
+#firstname{
+    width: 100%;
+}
+
+#pass_inst{
+    display: flex;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 17px;
+}
+
+#subform{
+    width: auto;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+#buttn{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#subform:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #28282B;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 0.5px solid white;
+    background-color: #28282B;
+    color: white;
+}
+
+#correct{
+    display: inline;
+    padding: 10px 25px  10px 25px;
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+#error{
+    display: inline;
+    padding: 10px 25px  10px 25px;
+    background-color: rgb(255, 175, 175);
+    border: 1px solid red;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+#topper{
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+}
+
+.valid-rule{
+    color: rgb(135, 255, 135);
+}
+
+/* FORM END */
+
+/* MORE INFROMATION START */
+
+#more_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+#more_info a{
+    color: white;
+}
+
+/* MORE INFORMATION END */

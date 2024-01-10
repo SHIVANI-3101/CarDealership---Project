@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/ThePandaStore/images/panda main icon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="signup_styles.css">
-    <title>ThePandaShop Signup</title>
+    <link rel="stylesheet" href="/frontend/styling/signup_style.css">
+    <title>CarBuy.Com</title>
 </head>
 <body>
     <header>
         <nav>
             <div id="logo">
-                <a href="/ThePandaStore/pages/landing page/index.html">CarBuy.com</a>
+                <a href="/frontend/pages/index.html">CarBuy.com</a>
             </div>
             <div id="righthand">
                 <div class="navlink">
-                    <a href="/ThePandaStore/pages/landing page/index.html">Home</a>
+                    <a href="/frontend/pages/index.html">Home</a>
                 </div>
                 <div class="navlink">
-                    <a href="/ThePandaStore/pages/about us/aboutus.html">About</a>
+                    <a href="/frontend/pages/contact.html">Contact Us</a>
                 </div>
                 <div class="navlink">
-                    <a href="/ThePandaStore/pages/signup/signup.html">SignUp</a>
+                    <a href="/frontend/pages/login.html">Login</a>
                 </div>
             </div>
         </nav>
@@ -36,9 +35,8 @@
                     </div>
                     <div id="result"></div>
                 </div>
-                <form action="POST">
+                <form action="http://localhost:3000/sign_up" method="POST">
                     <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required  maxlength="10">
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
                     <input type="number" id="phonenum" name="phonenum" placeholder="Enter Phone Number" required maxlength="10">
                     <input type="email" id="user_mail" name="user_mail" placeholder="Enter Email" required>
                     <input type="password" id="user_pass" name="user_pass" placeholder="Enter Password" required oninput="dynamicCheck()">
@@ -60,17 +58,17 @@
                 </form>
                 <div id="buttn">
                     <div>
-                        <button onclick="checkInput(event)" id="subform">Sign up for free</button>
+                        <button onclick="checkInput(e)" id="subform">Sign up for free</button>
                     </div>
                 </div>
             </div>
         </div>
         <div id="more_info">
             <div id="login">
-                Already have an account ? <a href="/ThePandaStore/pages/login/login.html"><u>Log In</u></a>
+                Already have an account ? <a href="/frontend/pages/login.html"><u>Log In</u></a>
             </div>
         </div>
     </section>
-    <script src="sign_work.js"></script>
+    <script src="/frontend/scripting/signup.js"></script>
 </body>
 </html>

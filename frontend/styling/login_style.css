@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #28282B inset !important;
+    -webkit-text-fill-color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    background-color: #28282B;
+}
+
+/* Navigation Bar */
+
+#logo{
+    font-size: 35px;
+}
+
+#logo a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    padding: 40px 30px 40px 30px;
+}
+
+#righthand{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navlink{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+
+/* LOGIN FORM START */
+
+#login_head{
+    font-size: 45px;
+    display: inline;
+    color: white;
+}
+
+#login_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 180px 30px 10px 30px;
+}
+
+#login_form{
+    border: 0.5px solid #28282b;
+    padding: 30px 30px 10px 30px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 0.5px solid white;
+    background-color: #28282B;
+    color: white;
+}
+
+#sub_button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 0.5px solid white;
+    background-color: #28282B;
+    color: white;
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #28282B;
+}
+
+#sub{
+    display: inline;
+    
+}
+/* LOGIN FORM END */
+
+/* MORE INFROMATION START */
+
+#more_in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+    font-size: 17px;
+    color: white;
+}
+
+#content a{
+    color: white;
+}
+
+
+
+/* MORE INFORMATION END */
