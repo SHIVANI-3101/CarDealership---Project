@@ -1,6 +1,10 @@
 # CarDealership---Project
 Discover a seamless automotive experience at our state-of-the-art car dealership website, where innovation meets elegance. Browse our extensive inventory, explore exclusive deals, and embark on a journey to find the perfect vehicle that suits your style and needs.
 
+## LINK TO THE WEBSITE<br/>
+[Click Here](https://carbuy.netlify.app/)
+
+
 The website is made with the use of:
 - HTML
 - CSS
@@ -15,7 +19,7 @@ The website is made with the use of:
 ## Top Cars of the month
 ![Alt text](repoimage/hometop.png)
 
-## Landing Page Of the Website
+## Services offered by the dealership
 
 ![Alt text](repoimage/services.png)
 
