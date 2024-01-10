@@ -15,7 +15,7 @@ The website is made with the use of:
 ## Top Cars of the month
 ![Alt text](repoimage/hometop.png)
 
-## Landing Page Of the Website
+## Services offered by the dealership
 
 ![Alt text](repoimage/services.png)
 
