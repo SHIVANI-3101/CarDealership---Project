@@ -9,4 +9,4 @@ The website is made with the use of:
 - Mongo.db
 
 
-![Alt text](CarDealership---Project/repoimage/homeabout.png)
+![Alt text](repoimage/homeabout.png)
